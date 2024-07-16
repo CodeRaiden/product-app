@@ -1,6 +1,5 @@
 // 'use client'
 import { useSearchParams } from 'next/navigation'
-import Product from '@/Components/Product'
 import { saveAllUserOptions } from './Filters'
 import Link from 'next/link'
 import Image from 'next/image'

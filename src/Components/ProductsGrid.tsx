@@ -3,7 +3,7 @@ import { useSearchParams } from 'next/navigation'
 import Product from '@/Components/Product'
 import { saveAllUserOptions } from './Filters'
 import Link from 'next/link'
-import image from 'next/image'
+import Image from 'next/image'
 import React from 'react'
 import Dash from '@/Components/Dash'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
@@ -40,7 +40,7 @@ const Products = async () => {
             key={index}
           >
             <div className='relative w-fit mx-auto'>
-              <img
+              <Image
                 className='w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl'
                 src={item.thumbnail}
                 alt={item.title}
